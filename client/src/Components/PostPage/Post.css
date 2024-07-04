@@ -1,0 +1,151 @@
+.user-name{
+    color: var(--name-font);
+    font-size: 15px;
+    font-weight: 530;
+
+}
+.user-roll{
+    color: var(--roll-font);
+    font-size: 13px;
+    font-weight: 430;
+
+}
+.post-date{
+    margin-top:3px ;
+    color: var(--date-font);
+    font-weight: 430;
+    font-size: 11px;
+
+}
+
+.post-content{
+    color:var(--post-text);
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 400;
+
+}
+
+.View-Post-Text-Container{
+    /* background-color: red; */
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.ResponseControls{
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    padding:10px;
+}
+
+
+
+.bt-report{
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    width: 90px;
+    height: 30px;
+    color: rgb(87, 86, 86);
+}
+.bt-report:hover{
+    color:red;
+    font-weight: 450;
+    cursor: pointer;
+}
+
+
+.bt-upvote{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    justify-content: center;
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    width: 105px;
+    height: 30px;
+    color: rgb(87, 86, 86);
+}
+.bt-upvote:hover{
+    color:var(--primary-color);
+    font-weight: 450;
+    cursor: pointer;
+}
+
+
+.bt-UpVoted-By-User{
+    color:var(--primary-color);
+    font-weight: 450;
+}
+
+
+
+.bt-comment{
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    color: rgb(87, 86, 86);
+}
+.bt-comment:hover{
+    color:var(--primary-color);
+    font-weight: 450;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+.CoupleButton{
+    display: flex;
+
+}
+
+
+.PostControls{
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.btn-cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }

@@ -1,0 +1,121 @@
+[{
+  "_id": {
+    "$oid": "64551cc5021b515552f98085"
+  },
+  "Wallet": 0,
+  "Name": "Nuroms",
+  "Email": "Nuroms@support",
+  "Status": "active",
+  "RollNo": "00-0000",
+  "OTP": "0000",
+  "Phone": "0000000000",
+  "Password": "1",
+  "AccountType": "Nurom",
+  "UserType": "System",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "645521bfc17ae0ec92df5d73"
+  },
+  "Wallet": 0,
+  "Name": "Ali Afzal",
+  "Email": "Ali.Afzal.Malik@lhr.nu.edu.pk",
+  "Status": "active",
+  "RollNo": "Ali.Afzal.Malik@lhr.nu.edu.pkSB2Jceg6Lam27Ww5Gqj8aAp9jHvuFW",
+  "OTP": "9042",
+  "Phone": "03356007908",
+  "Password": "123456",
+  "AccountType": "User",
+  "UserType": "Instructor",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "645641b568509f7257b1cda7"
+  },
+  "Wallet": 47000,
+  "Name": "Kaashaan Karim",
+  "Email": "l202073@lhr.nu.edu.pk",
+  "Status": "active",
+  "RollNo": "20L-2073",
+  "OTP": "7475",
+  "Phone": "03345678009",
+  "Password": "123456",
+  "AccountType": "User",
+  "UserType": "Instructor",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "645661ac4e96f69bef2f83ab"
+  },
+  "Wallet": 0,
+  "Name": "Amir Raheem",
+  "Email": "Amir.Raheem786@lhr.nu.edu.pk",
+  "Status": "active",
+  "RollNo": "Amir.Raheem786@lhr.nu.edu.pkw2z6Svq5mfBhkhLKg2MpLpo2Zfcr5M",
+  "OTP": "2854",
+  "Phone": "03365478009",
+  "Password": "123456",
+  "AccountType": "User",
+  "UserType": "Instructor",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6456655e4e96f69bef2f8405"
+  },
+  "Wallet": 0,
+  "Name": "Abeeda Akram",
+  "Email": "abeeda.akram42@lhr.nu.edu.pk",
+  "Status": "active",
+  "RollNo": "abeeda.akram42@lhr.nu.edu.pkBB2ZmvleeEX6CbQEuezHf4PwmO6WOq",
+  "OTP": "7688",
+  "Phone": "03345677009",
+  "Password": "123456",
+  "AccountType": "User",
+  "UserType": "Instructor",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6457e0a5782d900063f8b22f"
+  },
+  "Wallet": 255500,
+  "Name": "Shaheen Afridi",
+  "Email": "l224090@lhr.nu.edu.pk",
+  "Status": "active",
+  "RollNo": "22L-4090",
+  "OTP": "6987",
+  "Phone": "03325678009",
+  "Password": "123456",
+  "AccountType": "User",
+  "UserType": "Instructor",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6457e95c782d900063f8b2b6"
+  },
+  "Wallet": 75590,
+  "Name": "Hammad Zahoor",
+  "Email": "l200971@lhr.nu.edu.pk",
+  "Status": "active",
+  "RollNo": "20L-0971",
+  "OTP": "9186",
+  "Phone": "03345678899",
+  "Password": "123456",
+  "AccountType": "User",
+  "UserType": "Instructor",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "645952116f4340dc4c0029c6"
+  },
+  "Wallet": 0,
+  "Name": "Sobia Tariq",
+  "Email": "sobia@lhr.nu.edu.pk",
+  "Status": "active",
+  "RollNo": "sobia@lhr.nu.edu.pkfcKHLQulKVRifr3n8WLWoERitHGfXW",
+  "OTP": "4541",
+  "Phone": "03217900045",
+  "Password": "123456",
+  "AccountType": "User",
+  "UserType": "Instructor",
+  "__v": 0
+}]

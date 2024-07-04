@@ -1,0 +1,480 @@
+.CoachingServiceContainer{
+    width: 100%;
+    height: 245px;
+    margin-top: 20px;
+    /* background-color: pink; */
+    display: grid;
+    grid-template-columns: 90% 5%;
+}
+
+.Coaching-Request-Container{
+    /* background-color: red; */
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    width: 100%;
+    height: 245px;
+    overflow: hidden;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.CreateRequest{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.ImageCover{
+    width: 100%;
+    height: 100%;
+    background-color: #FBAB7E;
+background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+
+ }
+
+ .RequestDetails{
+    padding: 20px;
+    color: rgba(41, 41, 41, 0.842);
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+ }
+
+.RequestContainer{
+    display: grid;
+    grid-template-columns: 2.5% 22% 0.2% 30% 0.2%  22% 0.2% 22%;
+
+
+
+    background:rgba(255, 255, 255, 0.798);
+    box-shadow:  7px 7px 16px #c7cae388,
+                 -7px -7px 16px #deeaf79d;
+    border-radius:20px ;
+    width: 100%;
+    height: 240px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+
+.course-info{
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(59, 59, 59);
+}
+
+.bid-overview{
+    margin-top: 10px;
+    line-height: 15px;
+    font-size: 12.5px;
+    font-weight: 400;
+    color: rgba(42, 42, 42, 0.806);
+}
+
+.Separator{
+   
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.Sp-line{
+    width: 70%;
+    height: 90%;
+    background-color: rgba(153, 152, 152, 0.235);
+
+}
+
+.Other-Details{
+    /* background-color: pink; */
+    width: 100%;
+    height: 100%;
+    display: grid;
+    padding: 5px;
+    grid-template-rows: 30% 33% 33%;
+}
+
+
+
+
+.Coaching-Request-Container-2{
+    /* background-color: purple; */
+
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0px;
+    display: flex;
+    height: 240px;
+    width: 70%;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+}
+
+.RequestContainer-2{
+
+    background:rgba(255, 255, 255, 0.346);
+    box-shadow:  7px 7px 16px #c7cae32f,
+                 -7px -7px 16px #deeaf728;
+    border-radius:20px ;
+    width: 100%;
+    height: 240px;
+    overflow: hidden;
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+
+}
+.RequestContainer-2>h1{
+    font-size: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+.Instructor-Details{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Instructor-Details>h1{
+    color: rgba(0, 0, 0, 0.638);
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 10px;
+
+}
+
+.Instructor-Details>h2{
+    color: rgba(0, 0, 0, 0.774);
+    font-size: 14px;
+    margin-top: 5px;
+    font-weight: 500;
+
+}
+
+.Instructor-Details>p{
+    color: rgba(0, 0, 0, 0.774);
+    font-size: 13px;
+    margin-top: 3px;
+    font-weight: 430;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.Owner-Details{
+    width: 100%;
+    height: 100%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.User-Poster-Details{
+    color: rgba(0, 0, 0, 0.774);
+    margin: 5px;
+    padding: 5px;
+}
+.User-Poster-Details>p{
+    font-size:12px ;
+    font-weight: 400;
+}
+
+.User-Poster-Details>h6{
+    font-size: 14px;
+    font-weight: 550;
+}
+
+
+
+
+
+
+.Outer-Circle-Poster{
+    width: 45px;
+    height: 45px;
+    padding:3px;   
+    border-radius: 100%;
+    background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+    
+}
+
+.Inner-Circle-Poster{
+    background-color: aliceblue;
+    border-radius:100% ;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    padding:4px;
+}
+
+
+.Inner-Circle-Poster>img{
+    object-fit: cover;
+    border-radius: 100%;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+.Request-Attributes{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top:8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    /* background-color: pink; */
+
+
+}
+
+.Date{
+    font-size: 30px;
+    margin-bottom: 3px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.811);
+}
+.Request-Date>p{
+    color: white;
+    font-size: 10px;
+    font-weight: 300;
+}
+
+
+
+.inner-div-1{
+    height: 100%;
+    width: 32%;
+    background-color: rgba(146, 143, 143, 0.056);
+    border-radius: 10px;
+    margin: 3px;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.inner-div-2{
+    height: 100%;
+    margin: 3px;
+    width: 68%;
+    border-radius: 10px;
+    background-color: rgba(146, 143, 143, 0.056);
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+
+}
+
+.Big-Num{
+    color: rgba(0, 0, 0, 0.811);
+    font-size: 27px;
+    font-weight: 500;
+}
+.little-text{
+    color: rgba(0, 0, 0, 0.811);
+    font-size: 10px;
+    font-weight: 400;
+
+}
+
+
+.child-div{
+    /* background-color: pink; */
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.child-div>h2{
+    color: rgba(0, 0, 0, 0.811);
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+
+.child-div>p{
+    color: rgba(0, 0, 0, 0.811);
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.Sp{
+    background-color: rgba(46, 46, 46, 0.098);
+    height: 80%;
+    width:0.4px;
+}
+
+
+.Enroll-button{
+    width: 85%;
+    margin-top: 20px;
+    height: 50px;
+    border: none;
+    color: white;
+    background-color: var(--primary-color);
+    border-radius: 10px;
+}
+
+.Enroll-button:hover{
+    background-color: rgb(35, 35, 222);
+    cursor: pointer;
+
+}
+
+.Det{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Buy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 85%;
+    height: 100px;
+    background-color: rgba(235, 235, 235, 0.505);
+    border-radius: 10px;
+    padding: 20px;
+    
+}
+
+.FilterBar{
+    margin-top:10px ;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    width: 88%;
+    height: 88%;
+    padding: 5px;
+}
+
+
+.Bar{
+    padding: 20px;
+    width: 100%;
+    border-radius: 14px;
+    height: 100%;
+    background:rgba(255, 255, 255, 0.798);
+    box-shadow:  7px 7px 16px #c7cae388,
+                 -7px -7px 16px #deeaf79d;
+}
+
+.CoachingServicePage{
+    /* background-color: rgb(89, 255, 0); */
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 10%  1fr ;
+    row-gap: 10px;
+}
+
+.Scrollable_Service_Container{
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.CheckBoxes{
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Label1{
+    display: flex;
+    font-weight: 400;
+    color:rgba(79, 79, 79, 0.887);
+    font-size: 13px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.Flt-Btn{
+    background-color: transparent;
+    border: none;
+    width: auto;
+    height: 20px;
+    color: rgba(0, 0, 0, 0.752);
+    font-weight: 450;
+    font-size: 15px;
+    margin-left: 20px;
+}
+.Flt-Btn:hover{
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+.Flt-Active{
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+.Filter-Options{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.Bt-sp{
+    height: 20px;
+    width: 1px;
+    margin-left: 20px;
+    background-color: rgb(126, 124, 124);
+}

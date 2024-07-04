@@ -1,0 +1,169 @@
+[{
+  "_id": {
+    "$oid": "6455211fc17ae0ec92df5d50"
+  },
+  "BioText": "I am Muhammad anique. I am born to be a computer scientist",
+  "Campus": "LHR",
+  "UserId": "6455211ec17ae0ec92df5d4c",
+  "Semester": "6th",
+  "Years": null,
+  "Degree": "BSCS",
+  "UserType": "Instructor",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "645521c0c17ae0ec92df5d77"
+  },
+  "BioText": "I am Ali Afzal. Head of Department of Computer Science. I love California",
+  "Campus": "LHR",
+  "UserId": "645521bfc17ae0ec92df5d73",
+  "Semester": "MSCS",
+  "Years": null,
+  "Degree": "BSCS",
+  "UserType": "Instructor",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "645641b668509f7257b1cdab"
+  },
+  "BioText": "I am Kaashaan",
+  "Campus": "LHR",
+  "UserId": "645641b568509f7257b1cda7",
+  "Semester": "6th",
+  "Years": null,
+  "Degree": "BSCS",
+  "UserType": "Instructor",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "645661ac4e96f69bef2f83af"
+  },
+  "BioText": "I am Amir Raheem. I have done my masters form usa.",
+  "Campus": "LHR",
+  "UserId": "645661ac4e96f69bef2f83ab",
+  "Semester": "cmp",
+  "Years": null,
+  "Degree": "MSCS",
+  "UserType": "Instructor",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6456655f4e96f69bef2f8409"
+  },
+  "BioText": "I am Abeeda Akram. I am very Intelligent Professor",
+  "Campus": "LHR",
+  "UserId": "6456655e4e96f69bef2f8405",
+  "Semester": "cmp",
+  "Years": null,
+  "Degree": "MSCS",
+  "UserType": "Instructor",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6457e0a5782d900063f8b233"
+  },
+  "BioText": "I am Shaheen. I am very good at Sports and I can teach you how to play cricket",
+  "Campus": "LHR",
+  "UserId": "6457e0a5782d900063f8b22f",
+  "Semester": "cmp",
+  "Years": null,
+  "Degree": "BSCS",
+  "UserType": "Instructor",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6457e95d782d900063f8b2ba"
+  },
+  "BioText": "I am hamamd and I am very good",
+  "Campus": "LHR",
+  "UserId": "6457e95c782d900063f8b2b6",
+  "Semester": "6th",
+  "Years": null,
+  "Degree": "BSCS",
+  "UserType": "Instructor",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64590da0eca3df90472c1288"
+  },
+  "BioText": "No Bio Added",
+  "Campus": null,
+  "UserId": "64590d9feca3df90472c1284",
+  "Semester": null,
+  "Years": null,
+  "Degree": "BSCS",
+  "UserType": "Instructor",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64590ec4e8fdace2a289af3e"
+  },
+  "BioText": "No Bio Added",
+  "Campus": null,
+  "UserId": "64590ec3e8fdace2a289af3a",
+  "Semester": null,
+  "Years": null,
+  "Degree": "BSCS",
+  "UserType": "Instructor",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64590f668f35db9459e041d3"
+  },
+  "BioText": "No Bio Added",
+  "Campus": null,
+  "UserId": "64590f658f35db9459e041cf",
+  "Semester": null,
+  "Years": null,
+  "Degree": "BSCS",
+  "UserType": "Instructor",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64590fca05a87ca9cb7d5b20"
+  },
+  "BioText": "No Bio Added",
+  "Campus": null,
+  "UserId": "64590fca05a87ca9cb7d5b1c",
+  "Semester": null,
+  "Years": null,
+  "Degree": "BSCS",
+  "UserType": "Instructor",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6459105bc96dd8f16c25dbfe"
+  },
+  "BioText": "No Bio Added",
+  "Campus": null,
+  "UserId": "6459105ac96dd8f16c25dbfa",
+  "Semester": null,
+  "Years": null,
+  "Degree": "BSCS",
+  "UserType": "Instructor",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "645910b851a4ca5fb8179d24"
+  },
+  "BioText": "I am Muhammad Anique. I am a good React Developer",
+  "Campus": "LHR",
+  "UserId": "645910b751a4ca5fb8179d20",
+  "Semester": "6th",
+  "Years": null,
+  "Degree": "BSCS",
+  "UserType": "Instructor",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "645952126f4340dc4c0029ca"
+  },
+  "BioText": "TOA MASTER",
+  "Campus": "LHR",
+  "UserId": "645952116f4340dc4c0029c6",
+  "Semester": "cmp",
+  "Years": null,
+  "Degree": "MSCS",
+  "UserType": "Instructor",
+  "__v": 0
+}]

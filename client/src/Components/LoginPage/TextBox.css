@@ -1,0 +1,103 @@
+
+
+
+/*TextBox*/
+.col {
+    margin-top: 12px;
+    display: inline-block;
+    width: 100%;
+    position: relative;
+}
+
+.textbox {
+    border: 0;
+    width: 100%;
+    padding: 2px 0;
+    border-bottom: 1px solid #ccc;
+    color: var(--font-color);
+    box-sizing: border-box;
+    letter-spacing: 1px;
+}
+
+    .textbox ~ .focus-border {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        width: 0;
+        height: 2px;
+        background: linear-gradient(90deg, rgba(51,84,204,1) 0%, rgba(81,103,172,1) 46%, rgba(243,246,103,1) 100%);
+        transition: 0.4s;
+    }
+
+    .textbox:focus {
+        outline: none;
+    }
+
+        .textbox:focus ~ .focus-border {
+            width: 100%;
+            transition: 0.4s;
+            left: 0;
+        }
+
+
+
+
+.button-65 {
+
+    appearance: none;
+    backface-visibility: hidden;
+    background-color:var(--primary-color);
+    border-radius: 5px;
+    border-style: none;
+    box-shadow: none;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 500;
+    height: 40px;
+    letter-spacing: normal;
+    outline: none;
+    overflow: hidden;
+    padding: 14px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transform: translate3d(0, 0, 0);
+    transition: all .3s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: top;
+    white-space: nowrap;
+}
+
+.button-65:hover {
+    background-color: #1366d6;
+    box-shadow: rgba(0, 0, 0, .05) 0 5px 30px, rgba(0, 0, 0, .05) 0 1px 4px;
+    opacity: 1;
+    transform: translateY(0);
+    transition-duration: .35s;
+}
+
+.button-65:hover:after {
+    opacity: .5;
+}
+
+.button-65:active {
+    box-shadow: rgba(0, 0, 0, .1) 0 3px 6px 0, rgba(0, 0, 0, .1) 0 0 10px 0, rgba(0, 0, 0, .1) 0 1px 4px -1px;
+    transform: translateY(2px);
+    transition-duration: .35s;
+}
+
+.button-65:active:after {
+    opacity: 1;
+}
+
+@media (min-width: 768px) {
+    .button-65 {
+    padding: 14px;
+    width: 280px;
+    }
+}

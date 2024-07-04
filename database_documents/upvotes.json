@@ -1,0 +1,29 @@
+[{
+  "_id": {
+    "$oid": "6454e89fb844ed14f4ad6063"
+  },
+  "postId": "6454dfcfb844ed14f4ad5f42",
+  "voterId": "6454da1eb6f15373e1341dc6",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "645666414e96f69bef2f842e"
+  },
+  "postId": "6456640c4e96f69bef2f83cd",
+  "voterId": "6456655e4e96f69bef2f8405",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "645666d84e96f69bef2f8452"
+  },
+  "postId": "6456640c4e96f69bef2f83cd",
+  "voterId": "645521bfc17ae0ec92df5d73",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "645944db51a4ca5fb817a09f"
+  },
+  "postId": "6456640c4e96f69bef2f83cd",
+  "voterId": "645941a251a4ca5fb8179fec",
+  "__v": 0
+}]

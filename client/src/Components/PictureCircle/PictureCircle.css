@@ -1,0 +1,59 @@
+.small{
+    width: 70px;
+    height: 70px;
+}
+.large{
+    width: 80px;
+    height: 80px;
+}
+
+.extra-small{
+    width: 60px;
+    height: 60px;
+
+}
+
+
+.PictureCont{
+    
+    /* background-color: red; */
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.PictureCircleSmall{
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);    
+    border-radius:100% ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3.5px;
+    height: 100%;
+    width: 100%;
+}
+
+
+.CreateCommentBox-image{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
+
+
+
+.PictureFrame{
+    background-color: rgb(224, 230, 251);
+    border-radius:100% ;
+    height: 100%;
+    width: 100%;
+}
+
+
+.CreatePostBox-image{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }

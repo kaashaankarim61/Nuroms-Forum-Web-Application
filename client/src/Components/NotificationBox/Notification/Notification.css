@@ -1,0 +1,88 @@
+.Notification_Cont_T{
+    background-color: rgba(194, 194, 194, 0.183);
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 815px;
+    height: 90px;
+    border-radius:7px ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 10px;
+
+}
+
+.Sender-Details{
+    display: flex;
+    height: auto;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-left:10px ;
+}
+
+.Sender-Details>p{
+    font-size: 11px;
+    font-weight: 450;
+    margin-top: 5px;
+}
+.Message_Note{
+    width: 100%;
+    margin-left: 17px;
+    padding: 14px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(239, 239, 239, 0.165);
+}
+
+
+.Attr_Note{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 5px;
+}.Attr_Note>a{
+    font-size: 12px;
+    font-weight: 450;
+    margin-left: 10px;
+
+}
+.Attr_Note>h6{
+    font-size: 12.3px;
+    font-weight: 550;
+}
+
+.MeetNotBox{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.Time_Note{
+    background-color: rgba(212, 212, 212, 0.644);
+    border-radius: 10px;
+    width: auto;
+    padding: 15px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.Time_Note>p{
+    font-size: 13px;
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+.Time_Note>h6{
+    font-size: 13px;
+    font-weight: 450;
+}

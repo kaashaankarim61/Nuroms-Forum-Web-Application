@@ -1,0 +1,37 @@
+[{
+  "_id": {
+    "$oid": "6456640c4e96f69bef2f83cd"
+  },
+  "AuthorRoll": "645661ac4e96f69bef2f83ab",
+  "PostText": "Compiler construction is the process of designing, implementing, and testing a compiler, which is a program that translates source code written in one language into another language (usually machine code). \n\nCC is a very nice course. Do enroll in this course to witness real life implementation of DFA and CFGs",
+  "Priority": -9,
+  "Status": "active",
+  "Date": {
+    "$date": "2023-05-06T14:28:28.484Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6456663c4e96f69bef2f8426"
+  },
+  "AuthorRoll": "6456655e4e96f69bef2f8405",
+  "PostText": "Softec Is Coming. Participate in different Programming Competition to enhance your knowledge and competitive skills. Good Luck",
+  "Priority": -9,
+  "Status": "active",
+  "Date": {
+    "$date": "2023-05-06T14:37:48.910Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6456669f4e96f69bef2f844a"
+  },
+  "AuthorRoll": "645521bfc17ae0ec92df5d73",
+  "PostText": "I am Ali Afzal and father of Software Design and Analysis. If anyone have question regarding SDA do not hesitate and come to me. TY!",
+  "Priority": -9,
+  "Status": "active",
+  "Date": {
+    "$date": "2023-05-06T14:39:27.298Z"
+  },
+  "__v": 0
+}]

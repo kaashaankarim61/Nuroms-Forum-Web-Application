@@ -1,0 +1,19 @@
+{
+  "id": "cmpl-7ujZX2Hv3bstMCtI4XDHUPuwIo3D9",
+  "object": "text_completion",
+  "created": 1693755903,
+  "model": "davinci",
+  "choices": [
+    {
+      "text": " // what is dog WD = ((1.0) * (matches.",
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3,
+    "completion_tokens": 16,
+    "total_tokens": 19
+  }
+}

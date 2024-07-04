@@ -1,0 +1,28 @@
+[{
+  "_id": {
+    "$oid": "645945d231a0d5224c15c27f"
+  },
+  "reporterId": "645941a251a4ca5fb8179fec",
+  "victimId": "645521bfc17ae0ec92df5d73",
+  "reportType": "spam",
+  "postId": "6456669f4e96f69bef2f844a",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "645945d931a0d5224c15c281"
+  },
+  "reporterId": "645941a251a4ca5fb8179fec",
+  "victimId": "645521bfc17ae0ec92df5d73",
+  "reportType": "spam",
+  "postId": "6456669f4e96f69bef2f844a",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "645945e031a0d5224c15c283"
+  },
+  "reporterId": "645941a251a4ca5fb8179fec",
+  "victimId": "645521bfc17ae0ec92df5d73",
+  "reportType": "inappropriate",
+  "postId": "6456669f4e96f69bef2f844a",
+  "__v": 0
+}]

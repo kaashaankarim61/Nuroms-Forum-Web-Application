@@ -1,0 +1,21 @@
+.Acceptence_Message{
+    background-color: var(--primary-color);
+    padding: 10px;
+    border-radius: 9px;
+    color: white;
+    font-size: 11px;
+    margin: 20px;
+
+}
+
+.chnge-bid-box{
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+    border: none;
+    background-color: rgba(192, 190, 190, 0.484);
+    font-size: 30px;
+    font-weight: 700;
+    align-items: center;
+    text-align: center;
+}

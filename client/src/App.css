@@ -1,0 +1,51 @@
+:root {
+  --primary-color:#3354cc;
+  --white : #ffffff;
+  --bg-color-1: #d8dbf5;
+  --bg-color-2: #cad3ea;
+  --font-color:rgb(37, 37, 38);
+  --line-break-color:rgba(166, 166, 167, 0.15);
+  --name-font:black;
+  --date-font:rgb(124, 122, 122,0.9);
+  --post-font:black;
+  --roll-font:rgb(95, 93, 93);
+  --post-box: rgba(255, 255, 255, 0.73);
+
+}
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+
+
+
+.Container{
+  background: rgb(231,234,251);
+  background: linear-gradient(90deg, rgba(231,234,251,1) 0%, rgba(202,211,234,1) 100%, rgba(0,212,255,1) 100%);
+  height:100%;
+  width:100%;
+  display: grid;
+  grid-template-columns: 80px 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+
+}
+
+.LoginPageLay{
+  grid-column-start: 2;
+  grid-column-end: 9;
+  overflow: hidden;
+
+}
+
+.FullPageLay{
+  grid-column-start: 2;
+  grid-column-end: 9;
+  overflow: hidden;
+}
+
+

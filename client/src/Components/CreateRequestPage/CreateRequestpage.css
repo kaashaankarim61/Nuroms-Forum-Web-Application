@@ -1,0 +1,561 @@
+*{
+    box-sizing: border-box;
+
+}
+
+
+.CreateRequestPage{
+    display: grid;
+    grid-template-columns: 65% 35%;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.RequestSection{
+    /* background-color: rgba(255, 0, 0, 0.042); */
+    width: 100%;
+    height: 100%;
+    display: grid;
+    padding: 20px;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 50% 50%;
+    overflow: hidden;
+}
+
+
+.IntroSection{
+
+    width: 100%;
+    /* background-color: rgba(128, 0, 128, 0.066); */
+    height: 100%;
+    padding: 20px;
+    overflow: hidden;
+
+}
+
+.PriceSection{
+    width: 100%;
+    /* background-color: rgba(0, 128, 58, 0.101); */
+    height: 100%;
+    padding: 20px;
+    padding-top: 0px;
+
+}
+
+.AttributeSection{
+    width: 100%;
+    /* background-color: rgba(0, 255, 255, 0.129); */
+    height: 100%;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    padding: 20px;
+}
+
+
+
+.InfoBox{
+    /* background-color: red; */
+    width: 100%;
+    height: 100%;
+    margin-top: 5px;
+    padding-left:25px;
+    padding-right: 25px;
+    display: flex;
+    align-items: flex-start;
+    justify-items: center;
+}
+
+.InfoBox-Brief{
+    width: 100%;
+    height: 100%;
+    margin-top: 5px;
+    padding-left:25px;
+    padding-right: 25px;
+    display: flex;
+    align-items: flex-start;
+    justify-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.Brief-Area{
+    padding: 10px;
+    width: 100%;
+    height: 120px;
+    background: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.231);
+    border-radius: 5px;
+    overflow: hidden;
+    outline: none;
+}
+
+
+.Brief-Area:focus{
+    border: 3.5px solid rgba(103, 111, 187, 0.31);
+    border-radius: 5px;
+    font-size: 15px;
+  
+}
+
+.InfoBox>p{
+    font-weight: 500;   
+    margin-top: 10px;
+}
+.CourseCol{
+    /* background-color: #fc8d4c; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Heading{
+    object-fit: cover;
+    background: rgb(86,117,231);
+    background-image: url("../../resources/login_container_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    color: white;
+    padding: 10px;
+    display: flex;
+  
+}
+.Heading>h1{
+    font: 400;
+    font-size: 22px;
+}
+
+.Brief-Div{
+    background:rgba(255, 255, 255, 0.732);
+    box-shadow:  7px 7px 16px #c7cae388,
+                 -7px -7px 16px #deeaf79d;
+    border-radius: 7px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    object-fit: cover;
+    display: grid;
+    grid-template-rows: 12% 15% 15% 1fr;    
+}
+
+.Brief-Div>h1{
+    justify-self: flex-start;
+}
+
+.PriceBox{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.Pricing-Div{
+
+    background:rgba(255, 255, 255, 0.79);
+    box-shadow:  7px 7px 16px #c7cae388,
+                 -7px -7px 16px #deeaf79d;
+    border-radius:8px ;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    object-fit: cover;
+    display: grid;
+    grid-template-rows: 12% 1fr 1fr 1fr;
+}
+
+.Attribute-Setting{
+    background:rgba(255, 255, 255, 0.609);
+    box-shadow:  7px 7px 16px #c7cae388,
+                 -7px -7px 16px #deeaf79d;
+    border-radius:8px ;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    object-fit: cover;
+    display: grid;
+    grid-template-rows: 12% 1fr;
+}
+.Att-Heading{
+  background: rgb(86,117,231);
+  background-image: url("../../resources/login_container_bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.hexagon {
+    margin-top: 10px;
+    margin-left: 10px;
+    position: absolute;
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+   
+    border: 3px solid white;
+    background: rgb(86,117,231);
+    background: linear-gradient(90deg, rgba(86,117,231,0.9360994397759104) 0%, rgba(51,84,204,1) 98%);
+      box-shadow:  7px 7px 16px #c7cae325,
+                 -7px -7px 16px #deeaf710;
+    
+    align-self: flex-start;
+    justify-self: flex-start;
+  }
+  
+
+  .Inner-Section{
+    background-color: rgba(130, 129, 129, 0.046);
+  
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 15px;
+  }
+  .Inner-Section>h1{
+    font-size: 18px;
+    color:rgba(33, 33, 33, 0.771);
+    margin: 5px;
+  }
+  .Inner-Section>p{
+    font-size: 12px;
+    color:rgba(33, 33, 33, 0.771);
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 10px;
+  }
+  
+
+
+  .Duration-Box{
+    margin-top: 20px;
+    width: 120px;
+    height: 65px;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    color:rgba(16, 16, 16, 0.679);
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    font-weight: 900;
+    font-size: 35px;
+    background-color: rgba(255, 255, 255, 0.632);
+    box-shadow:  7px 7px 16px #c7cae345,
+    -7px -7px 16px #deeaf74d;
+  }
+
+  .Selection-button{
+    margin-top: 13px;
+    border-radius: 8px;
+    border:1px solid rgba(172, 172, 172, 0.14);
+    background-color: rgba(255, 255, 255, 0.664);
+    color: rgb(29, 29, 29);
+    width: 150px;
+    height: 42px;
+    box-shadow:  7px 7px 16px #c7cae345,
+    -7px -7px 16px #deeaf74d;
+  }
+  .Selection-button:hover{
+    color: white;
+    background-color: var(--primary-color);
+    cursor: pointer;
+  }
+
+
+  .Selection-button-active{
+    margin-top: 13px;
+    border-radius: 8px;
+    border:1px solid rgba(172, 172, 172, 0.14);
+    width: 150px;
+    height: 42px;
+    box-shadow:  7px 7px 16px #c7cae345,
+    -7px -7px 16px #deeaf74d;
+    color: white;
+    background-color: var(--primary-color);
+    cursor: pointer;
+  }
+
+
+
+  .Selection-button-2{
+    margin-top: 10px;
+    width: 150px;
+    height: 36px;
+    background-color: rgba(255, 255, 255, 0.664);
+    color: rgb(29, 29, 29);
+    border-radius: 8px;
+    border:1px solid rgba(172, 172, 172, 0.14);
+    box-shadow:  7px 7px 16px #c7cae345,
+    -7px -7px 16px #deeaf74d;
+
+  }
+  .Selection-button-2:hover{
+    color: white;
+    background-color: var(--primary-color);
+    cursor: pointer;
+  }
+
+
+  .Selection-button-2-active{
+    margin-top: 10px;
+    width: 150px;
+    height: 36px;
+    border-radius: 8px;
+    border:1px solid rgba(172, 172, 172, 0.14);
+    box-shadow:  7px 7px 16px #c7cae345,
+    -7px -7px 16px #deeaf74d;
+    color: white;
+    background-color: var(--primary-color);
+    cursor: pointer;
+  }
+
+  .Date-Box{
+    margin-top: 34px;
+    width: 150px;
+    height: 65px;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    color:rgba(16, 16, 16, 0.679);
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    font-weight: 900;
+    font-size: 13px;
+    background-color: rgba(255, 255, 255, 0.632);
+    box-shadow:  7px 7px 16px #c7cae345,
+    -7px -7px 16px #deeaf74d;
+
+  }
+
+  .Section-Row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 15px;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+
+
+  }
+
+
+  .Instructor-Selected{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .Instructor-Name-Email{
+    padding: 10px;
+    margin-left: 10px;
+
+  }
+  .Instructor-Name-Email>p{
+    margin-top: 3px;
+    font-size: 13px;
+  }
+  .Instructor-Name-Email>h1{
+    font-size: 14px;
+  }
+
+  .PriceSelection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+  }
+  .Price-Statement>h1{
+    font-size: 14px;
+    font-weight: 500;
+    margin-right:15px;
+  }
+
+  .Price-Input{
+    padding: 10px;
+    text-align: right;
+    display: flex;
+    font-weight: 600;
+    font-size: 35px;
+    border:0.3px solid rgba(100, 100, 100, 0.165);
+    width: 140px;
+    height: 60px;
+    margin-right: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(225, 225, 225, 0.355);
+  }
+
+  .Submission-button{
+   display: flex;
+   padding-top: 10px;
+   align-items: flex-start;
+   justify-content: center;
+  
+  }
+
+  .BTN-SUBMIT{
+    width: 170px;
+    height: 45px;
+    color: white;
+    background-color: var(--primary-color);
+    border-radius: 8px;
+    border:1px solid rgba(172, 172, 172, 0.14);
+
+  }
+  .BTN-SUBMIT:hover{
+    color: white;
+    background-color: var(--primary-color);
+    cursor: pointer;
+  }
+
+
+  .TeacherSection{
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+    padding-left: 0px;
+    overflow-y: scroll;
+}
+
+
+  .TeacherContainer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+  }
+
+  .TeacherBox{
+    width: 100%;
+    background:rgba(255, 255, 255, 0.79);
+    box-shadow:  7px 7px 16px #c7cae388,
+                 -7px -7px 16px #deeaf79d;
+    border-radius:8px ;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    object-fit: cover;
+    display: grid;
+    grid-template-rows: 5.5% 1fr;
+  
+  }
+
+  .TeacherItems{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow-y: scroll;
+  
+  }
+
+  .T_Item{
+    width: 100%;
+    margin:5px;
+    height: 80px;
+    padding-left: 10px;
+    padding-right: 30px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    z-index: 99;
+    border-radius: 8px;
+    border:0.3px solid rgba(100, 100, 100, 0.112);
+    background-color: rgba(237, 237, 237, 0.415);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+
+  .T_Item:hover{
+    background-color: rgba(151, 151, 151, 0.133);
+    cursor: pointer;
+  }
+
+
+  .Teacher-Component{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 3px;
+  }
+
+
+  
+
+  .CheckBox{
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+
+  }
+
+  .Tabs{
+    display: grid;
+    grid-template-columns: 1fr 0.3% 1fr;
+  }
+
+  .btn-Sp{
+    background-color: rgba(11, 11, 11, 0.221);
+  }
+  .tab-button{
+    border: none;
+  }
+
+
+  .Teacher-Name-Email{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+
+  }
+  .Teacher-Name-Email>p{
+    margin-top: 3px;
+    font-size: 10px;
+
+  }
+  .Teacher-Name-Email>h1{
+    font-size: 13px;
+
+  }
+
+
+  .Resetting{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+  }
+  .Resetting>p{
+    font-size: 11px;
+    font-weight: 400;
+  }
